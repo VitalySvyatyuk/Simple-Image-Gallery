@@ -1,11 +1,8 @@
+//Появление, исчезновение стрелочек.
 function hide_arrows() {
     $('.left').hide('slow');
 	$('.right').hide('slow');
 }
-
-$(document).ready(function() {
-    hide_arrows();
-});
   
 function show_arrows() {
     $('.left').show('slow');
